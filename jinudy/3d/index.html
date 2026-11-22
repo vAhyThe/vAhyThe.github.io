@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="referrer" content="no-referrer" />
+    <!-- Only the page itself and the basemap of "Na mapě" (OpenFreeMap: style, tiles, sprites,
+         fonts). The map worker is a file of the page; blob: is allowed for it as MapLibre's
+         fallback. The data are generated in the page, nothing else is fetched or sent. -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'; style-src 'self'; worker-src 'self' blob:; child-src 'self' blob:; img-src 'self' blob: data: https://tiles.openfreemap.org; connect-src 'self' blob: data: https://tiles.openfreemap.org; font-src 'self' data:; manifest-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'"
+    />
+    <meta name="description" content="Jinudy 3D: cesty jako datové pohoří – ukázka na vymyšlených cestách. Nic se neodesílá." />
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#0b1020" />
+    <link rel="icon" type="image/svg+xml" href="./assets/jinudy-mark-BnUxFgGj.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/jinudy-icon-32-CSOcz41V.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/jinudy-apple-touch-icon-DQzBj3T3.png" />
+    <title>Jinudy 3D – datové pohoří (ukázka)</title>
+    <script type="module" crossorigin src="./assets/web3d-3YBXiS_0.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/web3d-DH39uJz6.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

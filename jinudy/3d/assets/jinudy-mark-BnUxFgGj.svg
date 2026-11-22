@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <clipPath id="clip-top-b">
+      <rect x="0" y="0" width="512" height="275"/>
+    </clipPath>
+  </defs>
+  <path d="M 180 100 L 332 100 L 332 275 C 332 375, 270 412, 240 412 C 200 412, 180 375, 180 330" fill="none" stroke="#10b981" stroke-width="56" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 180 100 L 332 100 L 332 275" fill="none" stroke="#2563eb" stroke-width="56" stroke-linecap="round" stroke-linejoin="round" clip-path="url(#clip-top-b)"/>
+</svg>
